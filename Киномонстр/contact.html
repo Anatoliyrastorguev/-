@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Киномонстер</title>
+    <meta name="description" content="Киномонстр - это портал о кино" />
+    <meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <div class="logotext">
+            <h1><a href="Index.html">КиноМонстер</a></h1>
+            <h2>Кино - наша страсть</h2>
+          </div>
+        </div>
+        <div class="menubar">
+          <ul class="menu">
+            <li><a href="Index.html">Главная</a></li>
+            <li><a href="Show.html">Фильмы</a></li>
+            <li><a href="#">Сериалы</a></li>
+            <li><a href="rating.html">Рейтинг фильмов</a></li>
+            <li class="selected"><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sidecontent">
+        <div class="sidebarconteiner">
+          <div class="sidebar">
+            <h2>Поиск</h2>
+            <form method="post" action="#" id="search_form">
+              <input
+                type="search"
+                name="search_field"
+                placeholder="Ваш запрос"
+              />
+              <input type="submit" class="btn" value="найти" />
+            </form>
+          </div>
+          <div class="sidebar">
+            <h2>Вход</h2>
+            <form method="POST" action="#" id="login">
+              <input type="text" name="login_field" placeholder="Логин" />
+              <input
+                type="password"
+                name="password_field"
+                placeholder="Пароль"
+              />
+              <input type="submit" class="btn" value="Войти" />
+              <div class="lables_passreg_text">
+                <span><a href="#">Забыли пароль?</a></span> |
+                <span><a href="#">Регистрация</a></span>
+              </div>
+            </form>
+          </div>
+          <div class="sidebar">
+            <h2>Новости</h2>
+            <span>08.03.2021</span>
+            <p>Мы запустили расширинный поиск</p>
+            <a href="#">Читать</a>
+          </div>
+          <div class="sidebar">
+            <h2>Рейтинг фильмов</h2>
+            <ul>
+              <li>
+                <a href="Show.html">Интерласстер</a>
+                <span class="reting_sidebar">8.1</span>
+              </li>
+              <li>
+                <a href="#">Матрица</a> <span class="reting_sidebar">8.0</span>
+              </li>
+              <li>
+                <a href="#">Хоббит</a> <span class="reting_sidebar">7.99</span>
+              </li>
+              <li>
+                <a href="#">Гарри Потер</a>
+                <span class="reting_sidebar">7.98</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="content">
+          <h2>Контакты</h2>
+          <div class="send_review">
+            Отправте ваш отзыв о портале КиноМонстер
+          </div>
+          <div class="send">
+            <form method="POST" action="#" id="review">
+              <input type="text" name="review_name" placeholder="Ваше имя" />
+              <input type="email" name="review_email" placeholder="Ваш email" />
+              <textarea name="review_text"></textarea>
+              <input type="submit" value="Отправить" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          <a href="Index.html">Главная</a> | <a href="films.html">Фильмы</a> |
+          <a href="#">Сериалы</a> | <a href="rating.html">Рейтинг фильмов</a> |
+          <a href="contact.html">Контакты</a>
+        </p>
+        <p>wh-db.com 2015</p>
+      </div>
+    </div>
+  </body>
+</html>
